@@ -5,7 +5,7 @@ This project replicates the look and feel of Netflix’s main landing page, focu
 
 🚀 Features
 
-🎨 Modern Netflix-inspired design
+🎨 Modern Netflix-inspired design 
 
 📱 Fully responsive for all devices
 
