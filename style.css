@@ -1,0 +1,420 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.main {
+  background-image: url("assets/image/background.jpg");
+  background-size: max(1200px, 100vw);
+  height: 100vh;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.main .box {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.77;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80vw;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  height: 90px;
+}
+
+nav img {
+  width: 150px;
+}
+
+.hero {
+  height: 87%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.text-box > :nth-child(1) {
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 70px;
+}
+
+.text-box > :nth-child(2) {
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 70px;
+}
+
+.text-box > :nth-child(3) {
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 70px;
+}
+
+.text-box > :nth-child(4) {
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.sepearation {
+  height: 2px;
+  background-color: rgb(243, 29, 100);
+}
+
+.btn {
+  padding: 4px 10px;
+  background-color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-lang {
+  background-color: black;
+  font-size: 14px;
+  padding: 8px 16px;
+  color: white;
+  border: 1px solid white;
+}
+
+.btn-red {
+  background-color: red;
+  font-size: 24px;
+  padding: 13px 30px;
+  color: white;
+}
+
+.main input {
+  font-size: 16px;
+  padding: 16px 140px 16px 10px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(245, 238, 238, 0.5);
+}
+
+.hero-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-red-sm {
+  background-color: red;
+  font-size: 14px;
+  padding: 8px 16px;
+  color: white;
+}
+
+.container {
+  width: 80vw;
+  margin: auto;
+}
+
+.container p {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 25px 10px;
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.first span {
+  font-size: 100px;
+  font-weight: 700;
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  position: relative;
+  left: 40px;
+  bottom: 24px;
+}
+
+.first img {
+  width: 170px;
+  border-radius: 10px;
+}
+
+.first div {
+  transition: transform 0.3s ease-in-out;
+}
+
+.first div:hover {
+  transform: scale(1.1);
+}
+
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  height: 250px;
+  width: 280px;
+  background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.card > p:nth-child(1) {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.card > p:nth-child(2) {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.card span img {
+  width: 72px;
+  position: relative;
+  top: 22px;
+  left: 205px;
+}
+
+.container .two .card:nth-child(2) span img {
+  top: 10px;
+}
+
+.container .two .card:nth-child(3) span img {
+  top: 48px;
+}
+
+.fag {
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  width: 80vw;
+  margin: 50px auto;
+}
+
+.fagbox {
+  background-color: #2d2d2d;
+  height: 30px;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.fagbox:hover {
+  background-color: #414141;
+}
+
+.fagbox span {
+  font-size: 24px;
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.fagbox svg {
+  font-size: 50px;
+}
+
+.downbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.downbox p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  margin: 20px 10px;
+}
+
+.downbox input {
+  font-size: 16px;
+  padding: 18px 350px 13px 10px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(245, 238, 238, 0.5);
+  color: white;
+}
+
+.downbox .btn-red {
+  color: white;
+}
+
+.content {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-size: 16px;
+  width: 80vw;
+  margin: 60px auto;
+}
+
+.content span {
+  text-decoration: underline;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  width: 80vw;
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.footeritems {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footeritems a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footerlast {
+  width: 80vw;
+  margin: 50px auto;
+}
+
+.footerlast p {
+  margin: 40px 0px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.footerlast span {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  nav img {
+    width: 120px;
+  }
+
+  .text-box > :nth-child(1) {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .text-box > :nth-child(2) {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .text-box > :nth-child(4) {
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .hero-btn {
+    margin: 20px 0px;
+    gap: 18px;
+    flex-direction: column;
+  }
+
+
+  .first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card {
+  width: 330px;
+}
+
+.card span img {
+    left: 258px;
+}
+
+  .last span {
+    display: inline-block;
+    width: 50px;
+  }
+
+  .last {
+    width: 300px;
+  }
+
+  .two {
+    flex-direction: column;
+  }
+
+  .fag {
+    width: 90vw;
+  }
+
+  .fagbox span {
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  .downbox {
+    margin: 20px 20px;
+  }
+
+  .downbox p{
+    margin: 20px 0px;
+  }
+
+
+  .downbox input {
+  padding: 18px 130px 13px 10px;
+  margin:10px 0px;
+
+}
+.downbox .btn-red {
+  padding:10px;
+}
+
+.content {
+
+  width: 90vw;
+
+}
+
+.footer{
+  grid-template-columns: 1fr 1fr;
+  width: 90vw;
+}
+
+.footerlast {
+  width: 90vw;
+}
+}
